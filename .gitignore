@@ -1,0 +1,50 @@
+# Ignore environment files
+.env 
+
+# dependencies
+/node_modules
+
+# Backend (Spring Boot)
+ebank-backend/target/
+ebank-backend/.mvn/
+ebank-backend/mvnw
+ebank-backend/mvnw.cmd
+ebank-backend/.env
+ebank-backend/application-local.yml
+ebank-backend/logs/
+
+# Frontend (React)
+ebank-frontend/node_modules/
+ebank-frontend/build/
+ebank-frontend/.env
+ebank-frontend/.env.local
+ebank-frontend/.env.development.local
+ebank-frontend/.env.test.local
+ebank-frontend/.env.production.local
+ebank-frontend/npm-debug.log*
+ebank-frontend/yarn-debug.log*
+ebank-frontend/yarn-error.log*
+ebank-frontend/.pnp
+ebank-frontend/.pnp.js
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
