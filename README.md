@@ -67,7 +67,7 @@ examen-eBank/
 
 - **Backend won't start:** Check MySQL is running and credentials are correct.
 - **Frontend can't connect:** Make sure backend is running on port 8080.
-
+git
 ---
 
 **For more details, see the full documentation or contact the project maintainer.**

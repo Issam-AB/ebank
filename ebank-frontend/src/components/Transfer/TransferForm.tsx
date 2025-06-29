@@ -291,11 +291,11 @@ const TransferForm: React.FC = () => {
             </CardContent>
           </Card>
 
-          <Alert severity="info" sx={{ mt: 2 }}>
+          {/* <Alert severity="info" sx={{ mt: 2 }}>
             <Typography variant="body2">
               <strong>Rappel:</strong> Vérifiez soigneusement le RIB destinataire avant de confirmer le virement.
             </Typography>
-          </Alert>
+          </Alert> */}
         </Box>
       </Box>
     </Box>
